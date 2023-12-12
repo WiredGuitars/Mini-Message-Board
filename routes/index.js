@@ -3,16 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 const messages = [
-  {
-    text: "Hi there!",
-    user: "Amando",
-    added: new Date()
-  },
-  {
-    text: "Hello world!",
-    user: "Charles",
-    added: new Date()
-  }
+  
 ]
 
 router.get('/new', function(req, res, next) {
